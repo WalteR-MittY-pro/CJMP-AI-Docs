@@ -18,7 +18,7 @@
 
 ### `libs`
 
-- **对应范围**：完整映射仓颉官网 [API 库文档](https://cangjie-lang.cn/docs?url=%2F0.53.18%2Flibs%2Flibs_overview.html)，涵盖全量内置库与标准接口。
+- **对应范围**：完整映射 [仓颉官网标准库 std API 文档](https://cangjie-lang.cn/docs?url=%2F0.53.18%2Flibs%2Flibs_overview.html) 和 [非核心标准库 stdx](https://gitcode.com/Cangjie/cangjie_stdx/tree/main) API 文档，涵盖全量内置库与标准接口。
 - **核心内容**：
   - 各模块 API 定义与参数说明
   - 典型调用示例与异常处理指南
@@ -31,6 +31,15 @@
   - 多端应用开发流程与工程化实践
   - 性能优化、调试技巧与最佳实践总结
 
+### `ohos`
+
+- **对应范围**：同步 [OpenHarmony 仓颉开发者文档](https://gitcode.com/openharmony-sig/docs_cangjie/tree/master)，覆盖鸿蒙生态分布式开发、设备协同等典型场景。
+- **核心内容**：
+  - 分布式应用架构设计与实现指南
+  - ArkUI 声明式开发范式与 UI 组件详解
+  - 全栈 API 能力覆盖（应用框架、系统、媒体、图形、应用服务等）
+  - 仓颉与 ArkTS 互操作及跨语言开发实践
+
 ### `tools`
 
 - **对应范围**：同步仓颉官网 [工具指南](https://cangjie-lang.cn/docs?url=/1.0.0/tools/source_zh_cn/IDE/ide_plug-in_overview_community.html)，覆盖工具集官方标准用法。
@@ -42,4 +51,4 @@
 
 ### 版本一致性说明
 
-所有目录内容对齐仓颉官方文档结构，保留原文标题层级与技术术语定义，确保与 **v1.0.0** 编译器及工具链完全兼容。开发者可通过目录结构快速定位官方文档对应章节，实现知识检索与应用开发的高效衔接。
+所有目录内容对齐仓颉官方文档结构，保留原文标题层级与技术术语定义，确保与 **v1.0.0** 编译器及工具链完全兼容。开发者可通过目录结构快速定位官方文档对应章节，实现知识检索与应用开发的高效衔接.
