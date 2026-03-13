@@ -11,14 +11,14 @@
 
 当前仓库按实际目录组织如下：
 
-### `zh-cn`
+### `cjmp`
 
 - **目录说明**：CJMP 官方中文文档目录，已从 [CJMP/Docs](https://gitcode.com/CJMP/Docs) 同步到本仓库。
 - **内容范围**：包含应用开发者快速入门、框架开发者快速入门、贡献指南、版本说明等内容。
 - **快速入口**：
-	- [应用开发快速开始](zh-cn/app-dev/quick-start/README.md)
-	- [框架开发快速开始](zh-cn/framework-dev/quick-start/README.md)
-	- [版本说明](zh-cn/release-notes/cjmp-sdk-0.2.1.md)
+	- [应用开发快速开始](cjmp/zh-cn/app-dev/quick-start/README.md)
+	- [框架开发快速开始](cjmp/zh-cn/framework-dev/quick-start/README.md)
+	- [版本说明](cjmp/zh-cn/release-notes/cjmp-sdk-0.2.1.md)
 
 ### `cangjie_collections_extra`
 
@@ -66,6 +66,6 @@
 
 ## 来源与许可说明
 
-- `zh-cn/` 目录内容同步自 [CJMP/Docs](https://gitcode.com/CJMP/Docs)
-- 上游 `CJMP/Docs` 使用 **Apache License 2.0**，已在 [zh-cn/LICENSE](/Users/haifengsong/code-base/cjmp/CJMP-AI-Docs/zh-cn/LICENSE) 保留副本
+- `cjmp/` 目录内容同步自 [CJMP/Docs](https://gitcode.com/CJMP/Docs)
+- 上游 `CJMP/Docs` 使用 **Apache License 2.0**，已在 cjmp/zh-cn/LICENSE 保留副本
 - 其他目录的许可与来源以各自原始文档和仓库声明为准
