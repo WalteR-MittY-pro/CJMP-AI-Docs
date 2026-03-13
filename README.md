@@ -2,9 +2,7 @@
 
 本仓库是 **CJMP 文档库**，汇集所有CJMP相关文档或引用，当前阶段主要收录 **仓颉编程语言** 及其相关生态文档，并已按统一目录结构整理为适合 **RAG（检索增强生成）**、知识库检索、智能问答与辅助编码等场景使用的 Markdown 语料。
 
-现阶段内容以仓颉语言官方文档、标准库文档、工具链文档和 OpenHarmony 相关文档为主。**CJMP 专属文档将于后续版本逐步补充进入本仓库。**
-
-仓颉语言本身已具备跨平台能力，因此当前仓库内容既可作为仓颉语言学习与检索基础，也可作为后续扩展到 CJMP 文档体系的底座。
+仓颉语言本身已具备跨平台能力。
 
 ## 仓库结构
 
@@ -27,25 +25,17 @@
 - **对应来源**：[仓颉官网标准库文档](https://cangjie-lang.cn/docs?url=%2F1.0.0%2Flibs%2Fstd%2Fstd_module_overview.html) 和 [Cangjie stdx](https://gitcode.com/Cangjie/cangjie_stdx/tree/main)
 - **内容范围**：包含 `std` 与 `stdx` 两大部分，覆盖集合、IO、网络、并发、数据库、加密、测试、日志、序列化等模块。
 
-### `cangjie_system`
-
-- **目录说明**：OpenHarmony 与系统侧仓颉能力相关文档。
-- **对应来源**：[OpenHarmony 仓颉开发者文档](https://gitcode.com/openharmony-sig/docs_cangjie/tree/master)
-- **内容范围**：包括仓颉在 OpenHarmony 中的能力概览、应用开发文档及生态侧相关资料。
-
 ### `cangjie_tools`
 
 - **目录说明**：仓颉工具链与配套工具使用文档。
 - **对应来源**：[仓颉官网工具指南](https://cangjie-lang.cn/docs?url=%2F1.0.0%2Ftools%2Fsource_zh_cn%2FChapter_00_Cover.html)
 - **内容范围**：涵盖 `cjpm`、`cjfmt`、`cjlint`、`cjdb`、`cjcov`、`cjprof`、`cjtrace` 等工具的使用说明与开发流程文档。
 
-## 使用说明
+### `ohos`
 
-本仓库中的文档以 Markdown 形式保存，尽可能保留原始章节结构、标题层级与专业术语，便于：
-
-- 构建 CJMP / 仓颉相关知识库与向量检索系统
-- 为智能编码助手、问答系统和教学辅助工具提供语料支持
-- 按目录快速映射回官方文档主题与章节
+- **目录说明**：OpenHarmony 与系统侧仓颉能力相关文档。CJMP 沿用 OpenHarmony 的系统API，提供跨平台系统能力，目前还在开发中。
+- **对应来源**：[OpenHarmony 仓颉开发者文档](https://gitcode.com/openharmony-sig/docs_cangjie/tree/master)
+- **内容范围**：包括仓颉在 OpenHarmony 中的能力概览、应用开发文档及生态侧相关资料。
 
 ## 后续规划
 
