@@ -19,7 +19,7 @@
 ## 开发者工具
 
 - [CJMP SDK 目录结构介绍](tools/sdk-info.md)
-- [CJMP 命令行工具介绍](tools/tools-cmd.md)
+- [CJMP 命令行 Keels 工具介绍](tools/tools-cmd.md)
 
 ## 最佳实践
 

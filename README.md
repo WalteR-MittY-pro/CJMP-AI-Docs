@@ -15,54 +15,52 @@
 
 - **目录说明**：CJMP 官方中文文档目录，已从 [CJMP/Docs](https://gitcode.com/CJMP/Docs) 同步到本仓库。
 - **内容范围**：包含应用开发者快速入门、框架开发者快速入门、贡献指南、版本说明等内容。
+- **AI 检索基准路径**：优先从 `cjmp/zh-cn/` 开始定位，`zh-cn` 下的一级目录已经按主题完成分区。
+- **目录树（推荐 AI 按路径语义理解）**：
+
+```text
+cjmp/
+└── zh-cn/
+    ├── app-dev/                 应用开发文档
+    │   ├── README.md            应用开发总入口
+    │   ├── quick-start/         快速开始、工程结构、插件、示例代码
+    │   └── tools/               SDK 结构、命令行工具、跨语言调试
+    ├── framework-dev/           框架开发文档
+    │   ├── quick-start/         开发准备、下载代码、编译、项目结构说明
+    │   ├── engine/              engine 相关设计与构建说明
+    │   ├── systemlibs/          systemlibs 设计、构建、测试说明
+    │   └── cj-ui/               UI 组件参考
+    ├── contribute/              贡献流程、代码规范、文档模板、特性设计
+    │   ├── doc-template/        文档模板
+    │   ├── feature-design/      特性设计文档
+    │   └── image/               贡献流程配图
+    ├── release-notes/           SDK 版本说明，按版本号命名
+    └── LICENSE                  上游许可证副本
+```
+
+- **路径语义约定**：
+	- `README.md`：通常是当前主题目录的总入口，AI 应优先阅读。
+	- `quick-start/`：面向入门和流程导航，适合先建立上下文。
+	- `tools/`：工具、命令行、SDK 目录、调试相关内容。
+	- `engine/`、`systemlibs/`、`cj-ui/`：框架子模块文档，适合按组件或能力精确查找。
+	- `examples/`：示例代码，适合查找可运行或可参考的最小样例。
+	- `image/`、`figure/`：配图资源，通常不是主要知识源，除非需要查看界面或流程截图。
+	- `doc-template/`、`feature-design/`：偏贡献和设计规范，不属于应用开发主线文档。
+- **AI 查找建议**：
+	- 查“应用开发、工程结构、插件、命令、调试”时，先看 `cjmp/zh-cn/app-dev/README.md`，再进入 `quick-start/` 或 `tools/`。
+	- 查“框架编译、源码下载、engine、systemlibs、组件开发”时，先看 `cjmp/zh-cn/framework-dev/quick-start/README.md`，再进入对应子目录。
+	- 查“提交流程、编码规范、文档模板、设计文档”时，直接进入 `cjmp/zh-cn/contribute/`。
+	- 查“版本变化、某个 SDK 版本更新内容”时，直接搜索 `cjmp/zh-cn/release-notes/cjmp-sdk-*.md`。
 - **快速入口**：
 	- [应用开发快速开始](cjmp/zh-cn/app-dev/quick-start/README.md)
 	- [框架开发快速开始](cjmp/zh-cn/framework-dev/quick-start/README.md)
 	- [版本说明](cjmp/zh-cn/release-notes/cjmp-sdk-0.2.1.md)
-
-### `cangjie_collections_extra`
-
-- **目录说明**：扩展整理的仓颉集合类相关资料与补充示例。
-- **内容特点**：围绕数组、集合、字符串、排序、元组、数值与函数等主题进行补充归档，便于检索与场景化使用。
-
-### `cangjie_lang_manual`
-
-- **目录说明**：仓颉语言开发指南与语言手册。
-- **对应来源**：[仓颉官网用户开发指南](https://cangjie-lang.cn/docs?url=%2F1.0.0%2Fuser_manual%2Fsource_zh_cn%2Ffirst_understanding%2Fbasic.html)
-- **内容范围**：覆盖语言基础、类型系统、函数、泛型、并发、包管理、编译构建、运行部署、FFI、反射与注解等核心主题。
-
-### `cangjie_libs`
-
-- **目录说明**：仓颉标准库与扩展库文档。
-- **对应来源**：[仓颉官网标准库文档](https://cangjie-lang.cn/docs?url=%2F1.0.0%2Flibs%2Fstd%2Fstd_module_overview.html) 和 [Cangjie stdx](https://gitcode.com/Cangjie/cangjie_stdx/tree/main)
-- **内容范围**：包含 `std` 与 `stdx` 两大部分，覆盖集合、IO、网络、并发、数据库、加密、测试、日志、序列化等模块。
-
-### `cangjie_tools`
-
-- **目录说明**：仓颉工具链与配套工具使用文档。
-- **对应来源**：[仓颉官网工具指南](https://cangjie-lang.cn/docs?url=%2F1.0.0%2Ftools%2Fsource_zh_cn%2FChapter_00_Cover.html)
-- **内容范围**：涵盖 `cjpm`、`cjfmt`、`cjlint`、`cjdb`、`cjcov`、`cjprof`、`cjtrace` 等工具的使用说明与开发流程文档。
-
-### `ohos`
-
-- **目录说明**：OpenHarmony 与系统侧仓颉能力相关文档。CJMP 沿用 OpenHarmony 的系统API，提供跨平台系统能力，目前还在开发中。
-- **对应来源**：[OpenHarmony 仓颉开发者文档](https://gitcode.com/openharmony-sig/docs_cangjie/tree/master)
-- **内容范围**：包括仓颉在 OpenHarmony 中的能力概览、应用开发文档及生态侧相关资料。
 
 ## 后续规划
 
 - 持续同步 **CJMP/Docs** 仓库更新
 - 持续同步仓颉语言及生态相关公开文档更新
 - 进一步完善适用于跨平台开发场景的知识组织与索引方式
-
-## 版本说明
-
-当前仓库同时包含：
-
-- 仓颉语言 **v1.0.0** 相关文档
-- CJMP 当前公开中文文档目录
-
-后续如新增 CJMP 专属文档或跨平台相关资料，将继续按主题扩展并保持目录结构清晰可检索。
 
 ## 来源与许可说明
 
