@@ -1,0 +1,9 @@
+# ProcessMode
+
+processmodeenum。
+
+---
+
+Enum
+
+- Enum Values:NEW_PROCESS_ATTACH_TO_PARENT | NEW_PROCESS_ATTACH_TO_STATUS_BAR_ITEM | ATTACH_TO_STATUS_BAR_ITEM

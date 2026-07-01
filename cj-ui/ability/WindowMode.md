@@ -1,0 +1,9 @@
+# WindowMode
+
+Type of window mode.
+
+---
+
+Enum
+
+- Enum Values:WINDOW_MODE_UNDEFINED | WINDOW_MODE_FULLSCREEN | WINDOW_MODE_SPLIT_PRIMARY | WINDOW_MODE_SPLIT_SECONDARY

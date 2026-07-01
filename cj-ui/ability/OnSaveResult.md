@@ -1,0 +1,9 @@
+# OnSaveResult
+
+State save result enum.
+
+---
+
+Enum
+
+- Enum Values:ALL_AGREE | CONTINUATION_REJECT | CONTINUATION_MISMATCH | RECOVERY_AGREE | RECOVERY_REJECT | ALL_REJECT

@@ -1,0 +1,9 @@
+# LaunchReason
+
+Type of launch reason.
+
+---
+
+Enum
+
+- Enum Values:UNKNOWN | START_ABILITY | CALL | CONTINUATION | APP_RECOVERY | SHARE | AUTO_STARTUP | INSIGHT_INTENT | PREPARE_CONTINUATION

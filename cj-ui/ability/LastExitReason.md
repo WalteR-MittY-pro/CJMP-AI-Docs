@@ -1,0 +1,9 @@
+# LastExitReason
+
+Type of last exit reason.
+
+---
+
+Enum
+
+- Enum Values:UNKNOWN | ABILITY_NOT_RESPONDING | NORMAL | CPP_CRASH | CJ_ERROR | APP_FREEZE | PERFORMANCE_CONTROL | RESOURCE_CONTROL | UPGRADE
